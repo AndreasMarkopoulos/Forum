@@ -1,0 +1,125 @@
+html {
+  font-family: 'Red Hat Display', sans-serif;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.glass{
+  width: 100%;
+  min-width: 890px;
+  margin: 0;
+  background-size:cover;
+  background: rgba( 77, 77, 77, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/*.homebg{*/
+/*  left: 0;*/
+/*  position: absolute;*/
+/*  background-size:cover;*/
+/*  width: 100%;*/
+/*  margin: 0 auto;*/
+/*  background-color:hsla(211,14%,86%,1);*/
+/*  background-image:*/
+/*    radial-gradient(at 0% 0%, hsla(212,100%,84%,1) 0px, transparent 50%),*/
+/*    radial-gradient(at 50% 97%, hsla(279,100%,84%,1) 0px, transparent 50%),*/
+/*    radial-gradient(at 87% 33%, hsla(209,100%,83%,1) 0px, transparent 50%);*/
+/*}*/
+
+.feed-page{
+  background-size: cover;
+  margin: 0;
+}
+
+.post-row{
+  padding-top: 60px;
+  width: 60%;
+  /*left: 100px;*/
+  margin: 0 auto;
+}
+
+.error-msg{
+  font-size: 20px!important;
+  font-weight: 200!important;
+  float: right;
+  color: red;
+  margin-top:0;
+  margin-bottom: 20px;
+}
+
+
+.post h1 {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.inputs input {
+  font-weight: bold;
+  border-radius: 3px;
+  border: 3px solid lightgray;
+  width: 70%;
+  padding: 5px 2px;
+}
+
+
+.inputs textarea {
+  resize: none;
+  border: 3px solid lightgrey;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
+}
+
+.post {
+  display: block;
+  background-color: white;
+  padding: 40px;
+  padding-top: 10px;
+  margin: 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.homebg{
+  left: 0;
+  position: absolute;
+  background-size:cover;
+  width: 100%;
+  margin: 0 auto;
+  background-color:rgb(238,242,247);
+  /*background-image:*/
+  /*  radial-gradient(at 0% 0%, hsla(212,100%,84%,1) 0px, transparent 50%),*/
+  /*  radial-gradient(at 50% 97%, hsla(279,100%,84%,1) 0px, transparent 50%),*/
+  /*  radial-gradient(at 87% 33%, hsla(209,100%,83%,1) 0px, transparent 50%);*/
+}
